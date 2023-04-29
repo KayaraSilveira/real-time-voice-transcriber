@@ -1,7 +1,11 @@
+asgiref==3.6.0
+backports.zoneinfo==0.2.1
 certifi==2022.12.7
 charset-normalizer==3.1.0
+Django==4.2
 idna==3.4
 PyAudio==0.2.13
 requests==2.29.0
 SpeechRecognition==3.10.0
+sqlparse==0.4.4
 urllib3==1.26.15
