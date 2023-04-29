@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Transcrição de Voz</title>
+    <link rel="stylesheet" href="{% static 'voicetranslator/css/style.css' %}">
+</head>
+<body>
+    <main>
+    {% csrf_token %}
+        <h1>Real-Time Voice Transcriber</h1>
+        <h2>Transcrição</h2>
+        <div id="transcription-box">
+            <p></p>
+            <p></p>
+        </div>
+        <a href="{% url 'voicetranslator:home' %}" id="btn-stop">Parar transcrição</a>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{% static 'voicetranslator/js/transcription.js' %}"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400&display=swap');
+
+:root {
+    --text-color: #1f2b37;
+    --background-color: #ededeb;
+    --yellow-color: #ebce3d;
+}
+
+html, body, main {
+    height: 100vh;
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+main {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: 300;
+    margin: 0;
+    font-size: 23px;
+}
+
+h2 {
+    font-weight: normal;
+    margin-bottom: 20px;
+    margin-top: 0;
+    font-size: 24px;
+}
+
+p {
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+#btn-start, #btn-stop {
+    color: white;
+    background-color: var(--yellow-color);
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px;
+    width: 250px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#btn-stop {
+    margin: 20px 0;
+}
+
+#transcription-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    width: 80%;
+    height: 27%;
+    border-radius: 10px;
+    margin: 25px 0;
+}
+
+#transcription-box p:last-of-type {
+    font-size: 20px;
+}
+
+#transcription-box p:first-child {
+    font-size: 16px;
+}

@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Voice translator</title>
+    <link rel="stylesheet" href="{% static 'voicetranslator/css/style.css' %}">
+</head>
+<body>
+    <main>
+        <h1>Real-Time Voice Transcriber</h1>
+        <h2>Olá, clique em "iniciar" para começar a transcrição em tempo real</h2>
+        <a href="{% url 'voicetranslator:transcription' %}" id="btn-start">Iniciar</a>
+    </main>
+</body>
+</html>
