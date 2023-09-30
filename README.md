@@ -1,6 +1,12 @@
 # Real Time Voice Transcriber
 Este repositório contém um aplicativo web desenvolvido como uma proposta de prática pedagógica para alunos surdos e deficientes auditivos. A ideia é que os alunos possam usar o aplicativo como um auxílio durante as aulas em classes regulares. O aplicativo realiza uma transcrição em tempo real do que é falado e exibe o texto, permitindo assim que o aluno acompanhe a fala do professor.
 
+
+![Captura de tela do prototipo](img/print1.jpeg)
+![Captura de tela do prototipo](img/print2.jpeg)
+![Captura de tela do prototipo](img/print3.jpeg)
+![Captura de tela do prototipo](img/print3.jpeg)
+
 ## Como Usar
 
 Para utilizar o projeto, é necessário ter o Python 3.x instalado e seguir os seguintes passos:
